@@ -1,0 +1,44 @@
+/* #main {
+    display: flex;
+    align-items: center;
+} */
+
+.timedate {
+    /* display: flex;  */
+    color: white;
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;  
+    font-weight: bold;
+    width: 400px;
+    background-color: orange;
+    border: 1px solid black; 
+    margin: 3px; 
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; 
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; 
+}
+
+/* .clock {
+    color: blue;
+    font-family: 'Antonio', sans-serif;
+    font-size: 40px;
+}
+
+.clockheader {
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+}
+
+.dateheader {
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+} */

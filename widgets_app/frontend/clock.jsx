@@ -28,13 +28,20 @@ class Clock extends React.Component {
 
     render() {
         return (
-            <div>
-                <h2>HERE IS THE TIME YALL::   
-                    {this.state.time.getHours()}: 
-                    {this.state.time.getMinutes()}:
-                    {this.state.time.getSeconds()}. 
-                </h2>
-            </div>
+                <div className="timedate">
+                    <div className="time">
+                        <h1 className="clockheader">Time:</h1>
+                        <h2 className="clock">  
+                            {this.state.time.getHours()}: 
+                            {this.state.time.getMinutes()}:
+                            {this.state.time.getSeconds()} EST 
+                        </h2>
+                    </div>
+                    <div className="calendar">
+                        <h1 className="dateheader">Date:</h1>
+                        <h2 className="date">{this.state.time.toDateString()}</h2>
+                    </div>
+                </div>
         )
     }
 }

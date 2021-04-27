@@ -4,8 +4,9 @@ import Clock from './clock';
 const Root = (props) => {
     return (
         <div className="root">
-            <h1>Widget Application</h1>
+            <h1 className="clockheader">Clock:</h1>
             < Clock />
+            <h1 className="weatherheader">Weather</h1>
         </div>
     )
 }

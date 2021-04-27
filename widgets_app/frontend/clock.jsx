@@ -30,7 +30,7 @@ class Clock extends React.Component {
         return (
                 <div className="timedate">
                     <div className="time">
-                        <h1 className="clockheader">Time:</h1>
+                        <h1 className="clock_header">Time:</h1>
                         <h2 className="clock">  
                             {this.state.time.getHours()}: 
                             {this.state.time.getMinutes()}:
